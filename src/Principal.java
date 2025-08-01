@@ -3,9 +3,9 @@ import br.com.alura.sreenmatch.modelos.Filme;
 public class Principal {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
-        meuFilme.nome = "Piratas do Caribe";
-        meuFilme.anoDeLancamento = 2001;
-        meuFilme.duracaoEmMinutos = 180;
+        meuFilme.setNome("Piratas do Caribe");
+        meuFilme.setAnoDeLancamento(2001);
+        meuFilme.setDuracaoEmMinutos(180);
 
 
         meuFilme.exibeFichaTecnica();
